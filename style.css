@@ -2,23 +2,7 @@
 /* -----> Custom Properties <----- */
 /* ------------------------------- */
 
-/* @font-face {
-  font-family: "AlexBrush";
-  src: url(../fonts/AlexBrush-Regular.ttf);
-}
-@font-face {
-  font-family: "Allura";
-  src: url(../fonts/Allura-Regular.ttf);
-}
-@font-face {
-  font-family: "DancingScript";
-  src: url(../fonts/DancingScript-Regular.ttf);
-} */
-
 :root {
-  /* --font-logo1: "AlexBrush", sans-serif;
-  --font-logo2: "Allura", sans-serif;
-  --font-logo3: "DancingScript", sans-serif; */
   --first-color: #ff4c00;
   --first-alpha-color: rgba(255, 76, 0, 0.75);
   --second-color: #273b47;
@@ -284,7 +268,7 @@ p {
 /*  --------- */
 
 .hero-image-home {
-  background-image: url("./../../assets/hero-image-home.jpg");
+  background-image: url("/assets/hero-image-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -707,7 +691,7 @@ progress::-moz-progress-bar {
 
 /* Zona de Testimonios */
 .hero-image-testimonials {
-  background-image: url("./../../assets/hero-image-customers.jpg");
+  background-image: url("/assets/hero-image-customers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
