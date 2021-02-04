@@ -3,55 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    /> -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Raleway:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Dancing+Script:wght@400;700&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Portafolio CV - Omar G. Colmenares A.</title>
+
+    <title>Portafolio CV - Omar Colmenares A.</title>
+
     <meta
       name="description"
-      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y Experto Petrolero"
+      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos exiguos"
     />
     <link
       rel="canonical"
-      href="https://cycscarlos.github.io/PortafolioCV_Omar"
+      href="https:/cycscarlos.github.io/PortafolioCV_Omar"
     />
     <link
-      rel="favicon"
-      href="https://cycscarlos.github.io/PortafolioCV_Omar/assets/favicon.png"
+      rel="shortcut icon"
+      href="./../assets/favicon.png"
+      type="image/x-icon"
     />
     <link
       rel="apple-touch-icon"
-      href="https://cycscarlos.github.io/PortafolioCV_Omar/assets/favicon.png"
+      href="https:/cycscarlos.github.io/PortafolioCV_Omar/assets/favicon.png"
     />
     <meta name="theme-color" content="#ff4c00" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="og:type" content="website" />
+
+    <!-- Meta tags usadas por Twitter -->
+    <meta name="twitter.card" content="summary" />
+    <meta name="twitter.title" content="Portafolio CV - PortafolioCV_Omar" />
     <meta
-      property="og:title"
-      name="twitter:title"
-      content="Portafolio CV - Omar G. Colmenares A."
+      name="twitter.image"
+      content="https:/cycscarlos.github.io/PortafolioCV_Omar/assets/hero-image-home-omar-v1.jpg"
     />
     <meta
-      property="og:description"
-      name="twitter:description"
-      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar G. Colmenares A., Ingeniero Mecánico y Experto Petrolero"
+      name="twitter.url"
+      content="https:/cycscarlos.github.io/PortafolioCV_Omar"
     />
     <meta
-      property="og:image"
-      name="twitter:image"
-      content="https://cycscarlos.github.io/PortafolioCV_Omar/assets/hero-image-home.jpg"
+      name="twitter.description"
+      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos exiguos"
+    />
+
+    <!-- Meta tags usadas por Linkedin e Instagram (Open Graph) -->
+    <meta property="og-type" content="website" />
+    <meta property="og-title" content="Portafolio CV - Omar Colmenares A." />
+    <meta
+      property="og-image"
+      content="https:/cycscarlos.github.io/PortafolioCV_Omar/assets/hero-image-home-omar-v1.jpg"
     />
     <meta
-      property="og:url"
-      name="twitter:url"
-      content="https://cycscarlos.github.io/PortafolioCV_Omar"
+      property="og-url"
+      content="https:/cycscarlos.github.io/PortafolioCV_Omar"
+    />
+    <meta
+      property="og-description"
+      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos exiguos"
     />
   </head>
 
@@ -99,13 +109,7 @@
       </section>
     </header>
     <section id="inicio" class="home">
-      <article
-        class="hero-image"
-        style="
-          --hero-image: url('assets/hero-image-home-omar-v1.jpg');
-          --hero-attachment: fixed;
-        "
-      >
+      <article class="hero-image-home">
         <aside
           class="hero-image-opacity"
           style="--hero-opacity-color: var(--black-alpha-color)"
@@ -126,7 +130,12 @@
       <article class="text-lg-right">
         <aside class="text-center text-lg-right">
           <h1>Omar G. Colmenares A.</h1>
-          <h5>Ingeniero Mecánico y Experto Petrolero</h5>
+          <h5>
+            <small>
+              Ingeniero Mecánico y experto petrolero en investigación y
+              operaciones de yacimientos exiguos
+            </small>
+          </h5>
         </aside>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -680,13 +689,7 @@
       </div>
     </article>
     <section id="testimonios" class="testimonials">
-      <article
-        class="hero-image"
-        style="
-          --hero-image: url('assets/hero-image-customers.jpg');
-          --hero-attachment: scroll;
-        "
-      >
+      <article class="hero-image-testimonials">
         <aside
           class="hero-image-opacity"
           style="--hero-opacity-color: var(--white-alpha-color)"
