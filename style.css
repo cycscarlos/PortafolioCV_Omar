@@ -268,7 +268,7 @@ p {
 /*  --------- */
 
 .hero-image-home {
-  background-image: url("./../hero-image-home.jpg");
+  background-image: url("./../PortafolioCV_Omar/hero-image-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -691,7 +691,7 @@ progress::-moz-progress-bar {
 
 /* Zona de Testimonios */
 .hero-image-testimonials {
-  background-image: url("./../hero-image-customers.jpg");
+  background-image: url("./../PortafolioCV_Omar/hero-image-customers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
