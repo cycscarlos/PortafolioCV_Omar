@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,31 +9,31 @@
       href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Dancing+Script:wght@400;700&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Portafolio CV - Omar Colmenares A.</title>
 
     <meta
       name="description"
-      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos"
+      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos exiguos"
     />
     <link
       rel="canonical"
       href="https:/cycscarlos.github.io/PortafolioCV_Omar"
     />
-    <link rel="shortcut icon" href="./../img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./../favicon.png" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
-      href="https:/cycscarlos.github.io/PortafolioCV_Omar/img/favicon.png"
+      href="https:/cycscarlos.github.io/PortafolioCV_Omar/favicon.png"
     />
     <meta name="theme-color" content="#ff4c00" />
 
     <!-- Meta tags usadas por Twitter -->
     <meta name="twitter.card" content="summary" />
-    <meta name="twitter.title" content="Portafolio CV - Omar Colmenares A." />
+    <meta name="twitter.title" content="Portafolio CV - PortafolioCV_Omar" />
     <meta
       name="twitter.image"
-      content="https:/cycscarlos.github.io/PortafolioCV_Omar/img/hero-image-home.jpg"
+      content="https:/cycscarlos.github.io/PortafolioCV_Omar/hero-image-home.jpg"
     />
     <meta
       name="twitter.url"
@@ -41,7 +41,7 @@
     />
     <meta
       name="twitter.description"
-      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos"
+      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos exiguos"
     />
 
     <!-- Meta tags usadas por Linkedin e Instagram (Open Graph) -->
@@ -49,7 +49,7 @@
     <meta property="og-title" content="Portafolio CV - Omar Colmenares A." />
     <meta
       property="og-image"
-      content="https:/cycscarlos.github.io/PortafolioCV_Omar/img/hero-image-home.jpg"
+      content="https:/cycscarlos.github.io/PortafolioCV_Omar/hero-image-home.jpg"
     />
     <meta
       property="og-url"
@@ -57,22 +57,43 @@
     />
     <meta
       property="og-description"
-      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos"
+      content="Hola bienvenid@ a mi Portafolio Profesional, soy Omar Colmenares A., Ingeniero Mecánico y experto Petrolero en investigación y operaciones de yacimientos exiguos"
     />
   </head>
+
   <body>
     <header class="header">
       <section class="container">
-        <!-- Caja para el Logo -->
         <div class="logo">
-          <a href="index.html">Omar Colmenares A.</a>
+          <a href="index.html">Omar G. Colmenares A.</a>
         </div>
-        <!-- Caja para los botones responsive -->
         <button class="menu-btn">
-          <img src="img/menu-bars.svg" alt="" />
-          <img class="none" src="img/menu-close.svg" alt="" />
+          <!-- Esta sería una forma de llamar los iconos -->
+          <!-- <img src="assets/menu-bars.svg" alt="" />
+          <img src="assets/menu-close.svg" alt="" /> -->
+
+          <!-- Icono "Hamburguer" de navegación -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <!-- Icono "x" de close -->
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
         </button>
-        <!-- Caja para el menu de navegación -->
         <nav class="menu">
           <a href="#inicio">Inicio</a>
           <a href="#acerca">Acerca</a>
@@ -84,124 +105,118 @@
       </section>
     </header>
     <section id="inicio" class="home">
-      <!-- Se definen 3 contenedores: -->
-      <!-- Contenedor-1: Donde se colocará la Hero Image -->
-      <!-- Contenedor-2: Uno igual al anterior para el manejo de la transparencia -->
-      <!-- Contenedor-3: Otro donde se colocará todo el contenido -->
       <article class="hero-image-home">
         <aside
           class="hero-image-opacity"
-          style="--hero-opacity-color: var(--black-color-opacity)"
+          style="--hero-opacity-color: var(--black-alpha-color)"
         >
           <div class="hero-image-content">
             <h2
               class="hero-image-title"
               style="--hero-text-color: var(--white-color)"
             >
-              Bienvenidos<br />
-              a mi sitio
+              Bienvenid@s<br />a mi sitio
             </h2>
             <a href="#contacto" class="btn">CONTÁCTAME</a>
           </div>
         </aside>
       </article>
     </section>
-    <section id="acerca" class="about section container full-lg-screen">
+    <section id="acerca" class="about section-acerca container full-lg-screen">
       <article class="text-lg-right">
         <aside class="text-center text-lg-right">
-          <h1>Omar Colmenares A.</h1>
-          <h6>
+          <h1>Omar G. Colmenares A.</h1>
+          <h5>
             <small>
-              Ingeniero Mecánico y experto Petrolero en investigación y
-              operaciones de yacimientos
+              Ingeniero Mecánico y experto petrolero en investigación y
+              operaciones de yacimientos exiguos
             </small>
-          </h6>
+          </h5>
         </aside>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-          quibusdam numquam earum, rerum officiis molestiae sit velit commodi?
-          Ullam quisquam nisi modi minima qui esse deserunt perspiciatis
-          tenetur, ut quos!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          adipisci voluptas voluptatum perspiciatis, eum inventore. Veniam,
+          consequatur distinctio esse incidunt accusamus repellat perspiciatis
+          id quam optio maiores quod, molestias sint!
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-          quibusdam numquam earum, rerum officiis molestiae sit velit commodi?
-          Ullam quisquam nisi modi minima qui esse deserunt perspiciatis
-          tenetur, ut quos!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          eum quam distinctio similique esse maiores dolores? Suscipit, eius
+          explicabo totam dicta odio tempore animi! Ipsa enim omnis porro
+          perspiciatis aut.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-          quibusdam numquam earum, rerum officiis molestiae sit velit commodi?
-          Ullam quisquam nisi modi minima qui esse deserunt perspiciatis
-          tenetur, ut quos!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+          voluptas harum voluptatum suscipit a qui quis aperiam sit
+          necessitatibus maiores eum incidunt, est reprehenderit totam culpa
+          velit nam provident dicta!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          aut excepturi, enim odio pariatur iure doloribus illo nisi. Animi
+          quisquam repellat fugit cupiditate magnam non at saepe! Maiores,
+          libero maxime?
         </p>
         <div class="text-center text-lg-left">
-          <a class="btn" href="#" target="_blank" rel="noopener"
-            >DESCARGAR MI CV</a
-          >
+          <!-- <a
+            class="btn"
+            href="https://cycscarlos.com/cycscarlos-cv.pdf"
+            target="_blank"
+            rel="noopener"
+            >DESCARGA MI CV</a
+          > -->
+          <a class="btn" href="#">DESCARGA MI CV</a>
         </div>
       </article>
       <article>
         <img
           class="gray-scale"
-          src="img/colmenares-omar.jpg"
-          alt="OmarColmenaresA"
+          src="assets/colmenares-omar.jpg"
+          alt="Carlos Colmenares A."
         />
       </article>
       <article>
         <h2 class="text-center text-lg-left">Mis Habilidades</h2>
-
-        <!-- Skill No.1 -->
         <div class="progress">
           <p>
-            <b>Programación IBM <i>Mainframes z/Architecture</i> </b>
-            <b>95%</b>
+            <b>Yacimientos</b>
+            <b>90%</b>
           </p>
-          <progress value="95" min="0" max="100"></progress>
+          <progress value="90" min="0" max="100"></progress>
         </div>
-
-        <!-- Skill No.2 -->
         <div class="progress">
           <p>
-            <b>Ingenieria de Telecomunicaciones <i>Wireless</i></b>
-            <b>94%</b>
+            <b>Exploración de pozos exiguos</b>
+            <b>85%</b>
           </p>
-          <progress value="94" min="0" max="100"></progress>
+          <progress value="85" min="0" max="100"></progress>
         </div>
-
-        <!-- Skill No.3 -->
         <div class="progress">
           <p>
-            <b>Sistemas de seguridad Electrónicos</b>
-            <b>93%</b>
+            <b>Investigación de operaciones</b>
+            <b>80%</b>
           </p>
-          <progress value="93" min="0" max="100"></progress>
+          <progress value="80" min="0" max="100"></progress>
         </div>
-
-        <!-- Skill No.4 -->
         <div class="progress">
           <p>
-            <b>Desarrollo <i>Web Frontend</i></b>
-            <b>60%</b>
+            <b>Diseño y ejecución de proyectos</b>
+            <b>80%</b>
           </p>
-          <progress value="60" min="0" max="100"></progress>
+          <progress value="80" min="0" max="100"></progress>
         </div>
-
-        <!-- Skill No.5 -->
         <div class="progress">
           <p>
-            <b>Diseño <i>Web</i></b>
-            <b>50%</b>
+            <b>Manejo de personal y control de obras</b>
+            <b>78%</b>
           </p>
-          <progress value="50" min="0" max="100"></progress>
+          <progress value="78" min="0" max="100"></progress>
         </div>
       </article>
     </section>
-    <section id="servicios" class="services section background-service-cards">
+    <section id="servicios" class="services section bg-gray-light">
       <div class="container full-lg-screen">
-        <h2 class="section-title">¿Que te Ofrezco?</h2>
-
-        <!-- Tarjeta de presentación No. 1 -->
+        <h2 class="section-title">¿Qué te ofrezco?</h2>
         <article class="service-card">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -218,14 +233,11 @@
           </svg>
           <h3>Programación <i>Web</i></h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            perspiciatis facere aliquam optio consequuntur consectetur et
-            repellendus, in voluptates similique repellat dolore adipisci enim,
-            sit, accusantium dicta mollitia fugit cupiditate!
+            Desarrollo sitios y aplicaciones para plataformas <i>Web</i>. Te
+            ayudo a construir tu proyecto de principio a fin: <i>Frontend</i>,
+            <i>Backend</i> y Base de Datos.
           </p>
         </article>
-
-        <!-- Tarjeta de presentación No. 2 -->
         <article class="service-card">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -237,16 +249,13 @@
               d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z"
             />
           </svg>
-          <h3>Diseño de <i>Websites</i></h3>
+          <h3>Diseño Web</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            perspiciatis facere aliquam optio consequuntur consectetur et
-            repellendus, in voluptates similique repellat dolore adipisci enim,
-            sit, accusantium dicta mollitia fugit cupiditate!
+            Prototipo y maqueto tus diseños estáticos y los convierto en
+            increíbles sitios y aplicaciones <i>web</i>
+            responsivas, óptimas y accesibles.
           </p>
         </article>
-
-        <!-- Tarjeta de presentación No. 3 -->
         <article class="service-card">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -263,16 +272,12 @@
             <circle cx="6.343" cy="6.344" r="2" />
             <circle cx="17.657" cy="17.658" r="2" />
           </svg>
-          <h3>Programación IBM z/Architecture</h3>
+          <h3><i>WPO</i></h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            perspiciatis facere aliquam optio consequuntur consectetur et
-            repellendus, in voluptates similique repellat dolore adipisci enim,
-            sit, accusantium dicta mollitia fugit cupiditate!
+            <i>Web Performance Optimization</i>, hago que tus sitios y
+            aplicaciones <i>web</i> mejoren su tiempo de carga y respuesta.
           </p>
         </article>
-
-        <!-- Tarjeta de presentación No. 4 -->
         <article class="service-card">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -287,16 +292,13 @@
               d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z"
             />
           </svg>
-          <h3>Instalación de sistemas de seguridad electrónica</h3>
+          <h3><i>SEO</i></h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            perspiciatis facere aliquam optio consequuntur consectetur et
-            repellendus, in voluptates similique repellat dolore adipisci enim,
-            sit, accusantium dicta mollitia fugit cupiditate!
+            <i>Search Engine Optimization</i>, optimizo tus sitios y
+            aplicaciones <i>web</i> para que mejoren su posición en los
+            buscadores orgánicamente.
           </p>
         </article>
-
-        <!-- Tarjeta de presentación No. 5 -->
         <article class="service-card">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -308,16 +310,13 @@
               d="M16.018,3.815L15.232,8h-4.966l0.716-3.815L9.018,3.815L8.232,8H4v2h3.857l-0.751,4H3v2h3.731l-0.714,3.805l1.965,0.369 L8.766,16h4.966l-0.714,3.805l1.965,0.369L15.766,16H20v-2h-3.859l0.751-4H21V8h-3.733l0.716-3.815L16.018,3.815z M14.106,14H9.141 l0.751-4h4.966L14.106,14z"
             />
           </svg>
-          <h3>Instalación de enlaces microondas de telecomunicaciones</h3>
+          <h3><i>SMO</i></h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            perspiciatis facere aliquam optio consequuntur consectetur et
-            repellendus, in voluptates similique repellat dolore adipisci enim,
-            sit, accusantium dicta mollitia fugit cupiditate!
+            <i>Social Media Optimiztion</i> y <i>Marketing</i> de Contenidos, te
+            ayudo a elegir los canales digitales correctos para llegar tu
+            audiencia ideal.
           </p>
         </article>
-
-        <!-- Tarjeta de presentación No. 6 -->
         <article class="service-card">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -336,133 +335,106 @@
               d="M17 6H19V8H17zM14 6H16V8H14zM17 16H19V18H17zM14 16H16V18H14z"
             />
           </svg>
-          <h3>Consultoría y Proyectos en Tecnología & Computación</h3>
+          <h3><i>Web Hosting</i></h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            perspiciatis facere aliquam optio consequuntur consectetur et
-            repellendus, in voluptates similique repellat dolore adipisci enim,
-            sit, accusantium dicta mollitia fugit cupiditate!
+            ¿No cuentas con dominio y hospedaje <i>web</i> para tu proyecto? No
+            te preocupes de esas cosas técnicas me encargo yo.
           </p>
         </article>
       </div>
     </section>
     <section id="portafolio" class="portfolio section">
       <div class="container">
-        <h2 class="section-title">Mis Proyectos</h2>
-        <!-- Tarjeta de Portafolio No. 1 -->
-        <div class="container">
-          <a href="#trabajo-1" class="portfolio-card">
-            <img src="img/portfolio-1.jpg" alt="Trabajo 1" />
-            <aside class="portfolio-card-info">
-              <div>
-                <h3>Proyecto-1</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                  enim aut debitis placeat harum ea sit, doloribus totam ipsam
-                  vel porro corporis earum libero eos optio corrupti eius esse
-                  dolore?
-                </p>
-              </div>
-            </aside>
-          </a>
-        </div>
-
-        <!-- Tarjeta de Portafolio No. 2 -->
-        <div class="container">
-          <a href="#trabajo-2" class="portfolio-card">
-            <img src="img/portfolio-2.jpg" alt="Trabajo 2" />
-            <aside class="portfolio-card-info">
-              <div>
-                <h3>Proyecto-2</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                  enim aut debitis placeat harum ea sit, doloribus totam ipsam
-                  vel porro corporis earum libero eos optio corrupti eius esse
-                  dolore?
-                </p>
-              </div>
-            </aside>
-          </a>
-        </div>
-
-        <!-- Tarjeta de Portafolio No. 3 -->
-        <div class="container">
-          <a href="#trabajo-3" class="portfolio-card">
-            <img src="img/portfolio-3.jpg" alt="Trabajo 3" />
-            <aside class="portfolio-card-info">
-              <div>
-                <h3>Proyecto-3</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                  enim aut debitis placeat harum ea sit, doloribus totam ipsam
-                  vel porro corporis earum libero eos optio corrupti eius esse
-                  dolore?
-                </p>
-              </div>
-            </aside>
-          </a>
-        </div>
-
-        <!-- Tarjeta de Portafolio No. 4 -->
-        <div class="container">
-          <a href="#trabajo-4" class="portfolio-card">
-            <img src="img/portfolio-4.jpg" alt="Trabajo 4" />
-            <aside class="portfolio-card-info">
-              <div>
-                <h3>Proyecto-4</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                  enim aut debitis placeat harum ea sit, doloribus totam ipsam
-                  vel porro corporis earum libero eos optio corrupti eius esse
-                  dolore?
-                </p>
-              </div>
-            </aside>
-          </a>
-        </div>
-
-        <!-- Tarjeta de Portafolio No. 5 -->
-        <div class="container">
-          <a href="#trabajo-5" class="portfolio-card">
-            <img src="img/portfolio-5.jpg" alt="Trabajo 5" />
-            <aside class="portfolio-card-info">
-              <div>
-                <h3>Proyecto-5</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                  enim aut debitis placeat harum ea sit, doloribus totam ipsam
-                  vel porro corporis earum libero eos optio corrupti eius esse
-                  dolore?
-                </p>
-              </div>
-            </aside>
-          </a>
-        </div>
-
-        <!-- Tarjeta de Portafolio No. 6 -->
-        <div class="container">
-          <a href="#trabajo-6" class="portfolio-card">
-            <img src="img/portfolio-6.jpg" alt="Trabajo 6" />
-            <aside class="portfolio-card-info">
-              <div>
-                <h3>Proyecto-6</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                  enim aut debitis placeat harum ea sit, doloribus totam ipsam
-                  vel porro corporis earum libero eos optio corrupti eius esse
-                  dolore?
-                </p>
-              </div>
-            </aside>
-          </a>
-        </div>
+        <h2 class="section-title">Mis Trabajos</h2>
+        <a href="#trabajo-1" class="portfolio-card">
+          <img src="assets/portfolio-1.png" alt="Trabajo 1" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Proyecto 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                quibusdam modi dolore, ab unde labore totam repudiandae omnis
+                quam nesciunt eveniet, sequi ipsam ad culpa voluptatibus
+                delectus ex voluptas provident?
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-2" class="portfolio-card">
+          <img src="assets/portfolio-2.png" alt="Trabajo 2" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Proyecto 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium deserunt repellat quod cupiditate fugiat impedit vel
+                mollitia eligendi, cumque ipsum nemo repellendus vero asperiores
+                earum non similique numquam recusandae totam?
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-3" class="portfolio-card">
+          <img src="assets/portfolio-3.png" alt="Trabajo 3" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Proyecto 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium deserunt repellat quod cupiditate fugiat impedit vel
+                mollitia eligendi, cumque ipsum nemo repellendus vero asperiores
+                earum non similique numquam recusandae totam?
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-4" class="portfolio-card">
+          <img src="assets/portfolio-4.png" alt="Trabajo 4" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Proyecto 4</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium deserunt repellat quod cupiditate fugiat impedit vel
+                mollitia eligendi, cumque ipsum nemo repellendus vero asperiores
+                earum non similique numquam recusandae totam?
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-5" class="portfolio-card">
+          <img src="assets/portfolio-5.png" alt="Trabajo 5" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Proyecto 5</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium deserunt repellat quod cupiditate fugiat impedit vel
+                mollitia eligendi, cumque ipsum nemo repellendus vero asperiores
+                earum non similique numquam recusandae totam?
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#trabajo-6" class="portfolio-card">
+          <img src="assets/portfolio-6.png" alt="Trabajo 6" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Proyecto 6</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium deserunt repellat quod cupiditate fugiat impedit vel
+                mollitia eligendi, cumque ipsum nemo repellendus vero asperiores
+                earum non similique numquam recusandae totam?
+              </p>
+            </div>
+          </aside>
+        </a>
       </div>
     </section>
-
-    <!-- Botón de cierre ("X") de la ventana modal -->
-    <article id="trabajo-1" class="modal">
+    <article class="modal" id="trabajo-1">
       <div class="modal-content">
-        <a href="#close" class="modal-close">
+        <a href="#cerrar" class="modal-close">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -474,9 +446,8 @@
             />
           </svg>
         </a>
-        <!-- Ventana Modal del Proyecto 1 -->
         <article class="portfolio-modal">
-          <img src="img/portfolio-1.jpg" alt="Trabajo 1" />
+          <img src="assets/portfolio-1.png" alt="Trabajo 1" />
           <div class="portfolio-info">
             <h3>NOMBRE DEL PROYECTO 1</h3>
             <p>
@@ -494,11 +465,8 @@
               <small>Tipo de Proyecto</small>
               <small><b>ENLACE:</b></small>
               <small
-                ><a
-                  href="https://cycs.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >https://cycs.netlify.app</a
+                ><a href="https://proyecto.com" target="_blank" rel="noopener"
+                  >https://proyecto.com</a
                 ></small
               >
             </aside>
@@ -506,11 +474,9 @@
         </article>
       </div>
     </article>
-
-    <!-- Botón de cierre ("X") de la ventana modal -->
-    <article id="trabajo-2" class="modal">
+    <article class="modal" id="trabajo-2">
       <div class="modal-content">
-        <a href="#close" class="modal-close">
+        <a href="#cerrar" class="modal-close">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -522,9 +488,8 @@
             />
           </svg>
         </a>
-        <!-- Ventana Modal del Proyecto 2 -->
         <article class="portfolio-modal">
-          <img src="img/portfolio-2.jpg" alt="Trabajo 2" />
+          <img src="assets/portfolio-2.png" alt="Trabajo 2" />
           <div class="portfolio-info">
             <h3>NOMBRE DEL PROYECTO 2</h3>
             <p>
@@ -542,11 +507,8 @@
               <small>Tipo de Proyecto</small>
               <small><b>ENLACE:</b></small>
               <small
-                ><a
-                  href="https://cycs.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >https://cycs.netlify.app</a
+                ><a href="https://proyecto.com" target="_blank" rel="noopener"
+                  >https://proyecto.com</a
                 ></small
               >
             </aside>
@@ -554,11 +516,9 @@
         </article>
       </div>
     </article>
-
-    <!-- Botón de cierre ("X") de la ventana modal -->
-    <article id="trabajo-3" class="modal">
+    <article class="modal" id="trabajo-3">
       <div class="modal-content">
-        <a href="#close" class="modal-close">
+        <a href="#cerrar" class="modal-close">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -570,9 +530,8 @@
             />
           </svg>
         </a>
-        <!-- Ventana Modal del Proyecto 3 -->
         <article class="portfolio-modal">
-          <img src="img/portfolio-3.jpg" alt="Trabajo 3" />
+          <img src="assets/portfolio-3.png" alt="Trabajo 3" />
           <div class="portfolio-info">
             <h3>NOMBRE DEL PROYECTO 3</h3>
             <p>
@@ -590,11 +549,8 @@
               <small>Tipo de Proyecto</small>
               <small><b>ENLACE:</b></small>
               <small
-                ><a
-                  href="https://cycs.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >https://cycs.netlify.app</a
+                ><a href="https://proyecto.com" target="_blank" rel="noopener"
+                  >https://proyecto.com</a
                 ></small
               >
             </aside>
@@ -602,11 +558,9 @@
         </article>
       </div>
     </article>
-
-    <!-- Botón de cierre ("X") de la ventana modal -->
-    <article id="trabajo-4" class="modal">
+    <article class="modal" id="trabajo-4">
       <div class="modal-content">
-        <a href="#close" class="modal-close">
+        <a href="#cerrar" class="modal-close">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -618,9 +572,8 @@
             />
           </svg>
         </a>
-        <!-- Ventana Modal del Proyecto 4 -->
         <article class="portfolio-modal">
-          <img src="img/portfolio-4.jpg" alt="Trabajo 4" />
+          <img src="assets/portfolio-4.png" alt="Trabajo 4" />
           <div class="portfolio-info">
             <h3>NOMBRE DEL PROYECTO 4</h3>
             <p>
@@ -638,11 +591,8 @@
               <small>Tipo de Proyecto</small>
               <small><b>ENLACE:</b></small>
               <small
-                ><a
-                  href="https://cycs.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >https://cycs.netlify.app</a
+                ><a href="https://proyecto.com" target="_blank" rel="noopener"
+                  >https://proyecto.com</a
                 ></small
               >
             </aside>
@@ -650,11 +600,9 @@
         </article>
       </div>
     </article>
-
-    <!-- Botón de cierre ("X") de la ventana modal -->
-    <article id="trabajo-5" class="modal">
+    <article class="modal" id="trabajo-5">
       <div class="modal-content">
-        <a href="#close" class="modal-close">
+        <a href="#cerrar" class="modal-close">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -666,9 +614,8 @@
             />
           </svg>
         </a>
-        <!-- Ventana Modal del Proyecto 5 -->
         <article class="portfolio-modal">
-          <img src="img/portfolio-5.jpg" alt="Trabajo 5" />
+          <img src="assets/portfolio-5.png" alt="Trabajo 5" />
           <div class="portfolio-info">
             <h3>NOMBRE DEL PROYECTO 5</h3>
             <p>
@@ -686,11 +633,8 @@
               <small>Tipo de Proyecto</small>
               <small><b>ENLACE:</b></small>
               <small
-                ><a
-                  href="https://cycs.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >https://cycs.netlify.app</a
+                ><a href="https://proyecto.com" target="_blank" rel="noopener"
+                  >https://proyecto.com</a
                 ></small
               >
             </aside>
@@ -698,11 +642,9 @@
         </article>
       </div>
     </article>
-
-    <!-- Botón de cierre ("X") de la ventana modal -->
-    <article id="trabajo-6" class="modal">
+    <article class="modal" id="trabajo-6">
       <div class="modal-content">
-        <a href="#close" class="modal-close">
+        <a href="#cerrar" class="modal-close">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -714,9 +656,8 @@
             />
           </svg>
         </a>
-        <!-- Ventana Modal del Proyecto 6 -->
         <article class="portfolio-modal">
-          <img src="img/portfolio-6.jpg" alt="Trabajo 6" />
+          <img src="assets/portfolio-6.png" alt="Trabajo 6" />
           <div class="portfolio-info">
             <h3>NOMBRE DEL PROYECTO 6</h3>
             <p>
@@ -734,11 +675,8 @@
               <small>Tipo de Proyecto</small>
               <small><b>ENLACE:</b></small>
               <small
-                ><a
-                  href="https://cycs.netlify.app"
-                  target="_blank"
-                  rel="noopener"
-                  >https://cycs.netlify.app</a
+                ><a href="https://proyecto.com" target="_blank" rel="noopener"
+                  >https://proyecto.com</a
                 ></small
               >
             </aside>
@@ -746,89 +684,80 @@
         </article>
       </div>
     </article>
-
     <section id="testimonios" class="testimonials">
-      <!-- Se definen 3 contenedores: -->
-      <!-- Contenedor-1: Donde se colocará la Hero Image -->
-      <!-- Contenedor-2: Uno igual al anterior para el manejo de la transparencia -->
-      <!-- Contenedor-3: Otro donde se colocará todo el contenido -->
       <article class="hero-image-testimonials">
         <aside
           class="hero-image-opacity"
-          style="--hero-opacity-color: var(--white-color-opacity)"
+          style="--hero-opacity-color: var(--white-alpha-color)"
         >
           <div class="hero-image-content">
             <div class="container">
               <h2 class="section-title">Mis clientes dicen</h2>
               <article
                 class="carousel"
-                style="--carousel-bg-color: var(--white-color-opacity)"
+                style="--carousel-bg-color: var(--white-alpha-color)"
               >
                 <input type="radio" name="slides" id="slide-1" checked />
                 <input type="radio" name="slides" id="slide-2" />
                 <input type="radio" name="slides" id="slide-3" />
                 <input type="radio" name="slides" id="slide-4" />
-
                 <ul class="slides">
                   <li class="slide">
                     <img
-                      class="fotoAvatar"
-                      src="img/customer-1.jpg"
-                      alt="client-1"
+                      class="avatar"
+                      src="assets/customer-1.jpg"
+                      alt="Cliente 1"
                     />
                     <blockquote>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      A odio labore nobis ipsa omnis? Quisquam fugit illo quos
-                      rerum temporibus numquam ipsa facilis culpa doloribus.
-                      Atque minus provident consectetur. Ipsum.
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Asperiores quisquam totam voluptatem atque ad nisi
+                      voluptate temporibus enim fuga, error beatae iusto
+                      eveniet? Labore nesciunt atque vitae est impedit eaque."
                     </blockquote>
                     <h3 class="text-first-color">NOMBRE DEL CLIENTE</h3>
                     <h6>Puesto del Cliente</h6>
                   </li>
-
                   <li class="slide">
                     <img
-                      class="fotoAvatar"
-                      src="img/customer-2.jpg"
-                      alt="client-2"
+                      class="avatar"
+                      src="assets/customer-2.jpg"
+                      alt="Cliente 2"
                     />
                     <blockquote>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      A odio labore nobis ipsa omnis? Quisquam fugit illo quos
-                      rerum temporibus numquam ipsa facilis culpa doloribus.
-                      Atque minus provident consectetur. Ipsum.
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Asperiores quisquam totam voluptatem atque ad nisi
+                      voluptate temporibus enim fuga, error beatae iusto
+                      eveniet? Labore nesciunt atque vitae est impedit eaque."
                     </blockquote>
                     <h3 class="text-first-color">NOMBRE DEL CLIENTE</h3>
                     <h6>Puesto del Cliente</h6>
                   </li>
-
                   <li class="slide">
                     <img
-                      class="fotoAvatar"
-                      src="img/customer-3.jpg"
-                      alt="client-3"
+                      class="avatar"
+                      src="assets/customer-3.jpg"
+                      alt="Cliente 3"
                     />
                     <blockquote>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      A odio labore nobis ipsa omnis? Quisquam fugit illo quos
-                      rerum temporibus numquam ipsa facilis culpa doloribus.
-                      Atque minus provident consectetur. Ipsum.
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Asperiores quisquam totam voluptatem atque ad nisi
+                      voluptate temporibus enim fuga, error beatae iusto
+                      eveniet? Labore nesciunt atque vitae est impedit eaque."
                     </blockquote>
                     <h3 class="text-first-color">NOMBRE DEL CLIENTE</h3>
                     <h6>Puesto del Cliente</h6>
                   </li>
-
                   <li class="slide">
                     <img
-                      class="fotoAvatar"
-                      src="img/customer-4.jpg"
-                      alt="client-4"
+                      class="avatar"
+                      src="assets/customer-4.jpg"
+                      alt="Cliente 4"
                     />
                     <blockquote>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      A odio labore nobis ipsa omnis? Quisquam fugit illo quos
-                      rerum temporibus numquam ipsa facilis culpa doloribus.
-                      Atque minus provident consectetur. Ipsum.
+                      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Asperiores quisquam totam voluptatem atque ad nisi
+                      voluptate temporibus enim fuga, error beatae iusto
+                      eveniet? Labore nesciunt atque vitae est impedit eaque."
                     </blockquote>
                     <h3 class="text-first-color">NOMBRE DEL CLIENTE</h3>
                     <h6>Puesto del Cliente</h6>
@@ -850,7 +779,6 @@
       <div class="container">
         <h2 class="section-title">¿Interesado?</h2>
         <article class="contact-cards">
-          <!-- Tarjeta de Ubicación -->
           <aside class="contact-card box-shadow-1">
             <svg
               width="37"
@@ -865,10 +793,8 @@
               />
             </svg>
             <h5>UBICACIÓN</h5>
-            <small><i>Mixcoac</i>, CDMX, México</small>
+            <small><i>Lecherías</i>, Edo. Anzoategui, Venezuela</small>
           </aside>
-
-          <!-- Tarjeta de Teléfono -->
           <aside class="contact-card box-shadow-1">
             <svg
               width="33"
@@ -883,10 +809,8 @@
               />
             </svg>
             <h5>TELÉFONO</h5>
-            <small><a href="tel:04143246396">(+58) 4143246396</a></small>
+            <small><a href="tel:4141884156">(+58) 414.188.41.56</a></small>
           </aside>
-
-          <!-- Tarjeta de Email -->
           <aside class="contact-card box-shadow-1">
             <svg
               width="32"
@@ -902,13 +826,11 @@
             </svg>
             <h5>EMAIL</h5>
             <small
-              ><a href="mailto:cycs.instalacion@gmail.com"
-                >cycs.instalacion@gmail.com</a
+              ><a href="mailto:ocolmenares469@gmail.com"
+                >ocolmenares469@gmail.com</a
               ></small
             >
           </aside>
-
-          <!-- Tarjeta de Social Media -->
           <aside class="contact-card box-shadow-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -922,6 +844,22 @@
             </svg>
             <h5>SOCIAL MEDIA</h5>
             <small class="social-media">
+              <!-- <a
+                href="https://youtube.com/cycscarlos"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21.593,7.203c-0.23-0.858-0.905-1.535-1.762-1.766C18.265,5.007,12,5,12,5S5.736,4.993,4.169,5.404	c-0.84,0.229-1.534,0.921-1.766,1.778c-0.413,1.566-0.417,4.814-0.417,4.814s-0.004,3.264,0.406,4.814	c0.23,0.857,0.905,1.534,1.763,1.765c1.582,0.43,7.83,0.437,7.83,0.437s6.265,0.007,7.831-0.403c0.856-0.23,1.534-0.906,1.767-1.763	C21.997,15.281,22,12.034,22,12.034S22.02,8.769,21.593,7.203z M9.996,15.005l0.005-6l5.207,3.005L9.996,15.005z"
+                  />
+                </svg>
+              </a> -->
               <a
                 href="https://twitter.com/cycsingenieria"
                 target="_blank"
@@ -957,7 +895,7 @@
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/in/carlos-colmenares/"
+                href="https://www.linkedin.com/in/carlos-colmenares-a-5a717375/"
                 target="_blank"
                 rel="noopener"
               >
@@ -995,7 +933,6 @@
             </small>
           </aside>
         </article>
-
         <form class="contact-form box-shadow-1">
           <input
             type="text"
@@ -1021,11 +958,10 @@
             required
           ></textarea>
           <div class="contact-form-loader text-center none">
-            <img src="img/loader.svg" alt="Enviando..." />
+            <img src=" assets/loader.svg" alt="Enviando..." />
           </div>
           <input class="btn" type="submit" value="ENVIAR MENSAJE" />
         </form>
-
         <article id="gracias" class="modal">
           <div class="modal-content">
             <article class="contact-form-response">
@@ -1053,16 +989,14 @@
         </article>
       </div>
     </section>
-
     <footer class="footer">
       <small
-        >Sitio diseñado por:
-        <a href="https://cycs.netlify.app" target="_blank" rel="noopener"
-          ><span> Ing. Omar Colmenares A. </span>
-        </a>
-      </small>
+        >Sitio diseñado por
+        <a href="cycs.netlify.app" target="_blank" rel="noopener"
+          >CYCS<span> & Co.</span></a
+        ></small
+      >
     </footer>
-    <script src="js/hamburguerBtn.js"></script>
-    <script src="js/contactForm.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
