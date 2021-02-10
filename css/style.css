@@ -704,10 +704,7 @@ header > .container {
   font-size: 1rem;
 }
 .footer a span {
-  color: var(--white-color);
-  /* font-size: 0.7rem; */
   font-family: var(--font2);
-  /* font-style: italic; */
 }
 
 /* Definición de los Media Queries para EL SITIO en GENERAL */
